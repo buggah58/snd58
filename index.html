@@ -2,7 +2,7 @@
 <html>
   <head>
   	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<meta name="yandex-verification" content="6e9ec35339132cf8" />
+  	<!--meta name="yandex-verification" content="6e9ec35339132cf8" / -->
   	<meta name="Description" content="Адрес станции: 442000, Пензенская обл, Земетчинский р-н, рп Земетчино, ул. Лермонтова, д. 37. Производим проверку легкового и грузового транспорта на современном оборудовании отечественного и импортного производства."/>
 
   	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -517,17 +517,17 @@
 			function init () {
 			    var ymap = new ymaps.Map("map", {
 			        center: [
-						53.506592, 
-			        	42.601363
+						53.200451, 
+			        	45.016238
 			        ],
 			        zoom: 12,
 			        controls: ['smallMapDefaultSet'],
 			    });
 			    ymap.behaviors.disable("scrollZoom");
 
-			    placemark = new ymaps.Placemark([53.506592, 42.601363], {
-			        balloonContentHeader: "<div style=\"text-align:left\">Техосмотр в Земетчино</div>",
-			        balloonContentBody: "ул. Лермонтова, д. 37",
+			    placemark = new ymaps.Placemark([53.200451, 45.016238], {
+			        balloonContentHeader: "<div style=\"text-align:left\">Syndicate Penza</div>",
+			        balloonContentBody: "ул. Володарского 79",
 			    }, {
 			        preset: "islands#redDotIcon",
 			    });
